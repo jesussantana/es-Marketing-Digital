@@ -130,7 +130,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, [class^='heading-'] a {
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, [class^='heading-'] a:hover {
-	color: #505cfd;
+	color: #515DFD;
 }
 
 h2 .text-big {
@@ -183,6 +183,13 @@ h1 .biggest,
 	line-height: 1em;
 	letter-spacing: -.02em;
 	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+}
+
+@media (min-width: 300px) {
+	h1 .biggest,
+	.heading-1 .biggest {
+		font-size: 2em;
+	}
 }
 
 @media (min-width: 576px) {
@@ -281,7 +288,7 @@ mark,
 .mark {
 	padding: 3px 5px;
 	color: #ffffff;
-	background: #505cfd;
+	background: #515DFD;
 }
 
 .lead {
@@ -662,7 +669,7 @@ a[href*='tel'], a[href*='mailto'] {
 .main-decorated-box:before {
 	content: '';
 	position: absolute;
-	background: url("../images/social\ media\ marketing\ viral\ mms_5332751.png") no-repeat center center;
+	background: url("../images/social\ media\ marketing\ viral\ mms_5332751.webp") no-repeat center center;
 	background-size: contain;
 	width: 100%;
 	height: 100%;
@@ -4295,7 +4302,7 @@ textarea.form-input {
 }
 
 html.boxed body {
-	background: #edeff4 url(../images/rovenimagescom-949587.jpg) repeat fixed;
+	background: #edeff4 url(../images/rovenimagescom-949587.webp) repeat fixed;
 }
 
 @media (min-width: 1630px) {
@@ -5103,7 +5110,7 @@ html [class*='section-'].section-bottom-0 {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	opacity: .1;
+	opacity: 0.5;
 }
 
 .section-intro h1 {
@@ -5374,7 +5381,7 @@ html [class*='section-'].section-bottom-0 {
 
 @media (min-width: 576px) {
 	.bg-image-2 {
-		background-image: url("../images/purple\ blue\ simple\ gradient\ background_926903.jpg");
+		background-image: url("../images/purple\ blue\ simple\ gradient\ background_926903.webp");
 	}
 }
 
