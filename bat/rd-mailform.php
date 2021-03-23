@@ -99,7 +99,7 @@ try {
         $mail->Debugoutput = 'html';
 
         // Set the hostname of the mail server
-        $mail->Host = $formConfig['send.one.com'];
+        $mail->Host = $formConfig['&&&&&&'];
 
         // Set the SMTP port number - likely to be 25, 465 or 587
         $mail->Port = $formConfig['465'];
@@ -109,10 +109,10 @@ try {
         $mail->SMTPSecure = "ssl";
 
         // Username to use for SMTP authentication
-        $mail->Username = $formConfig['info@esmarketingdigital.com'];
+        $mail->Username = $formConfig['&&&&&&'];
 
         // Password to use for SMTP authentication
-        $mail->Password = $formConfig['Enjoy101&'];
+        $mail->Password = $formConfig['&&&&&&'];
     }
 
     $mail->From = $_POST['email'];
