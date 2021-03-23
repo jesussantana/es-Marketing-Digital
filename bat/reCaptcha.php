@@ -4,8 +4,8 @@ require_once 'ReCaptcha/autoload.php';
 
 // Register You API keys at https://www.google.com/recaptcha/admin
 // And write it here
-$siteKey = '6LdO_HcaAAAAAAO-_5qyetX6ESp_sieBTgchvOwf';
-$secret = '6LdO_HcaAAAAAOI2PyMU0xVm8gyVST8kBiF-dKFg';
+$siteKey = '&&&&&&&&';
+$secret = '&&&&&&&&';
 
 // reCAPTCHA supported 40+ languages listed here: https://developers.google.com/recaptcha/docs/language
 $lang = 'en';
